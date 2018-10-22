@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Demo from '../../components/Demo';
 import ServicesType from '../../components/ServicesType';
 
 
@@ -27,20 +26,6 @@ return (
             them to you."
         />
 
-        
-                <div className="row">
-                    <div className="col-md-5">
-          <a>
-                            <img className="img-fluid rounded mb-3 mb-md-0" src="img/power-analysis.png" alt=""/>
-          </a>
-        </div>
-                    <div className="col-md-7">
-          <h3>Power Consumption Analysis</h3>
-          <p>This is where we analyze everything that draws electricity in your home or business and we make sure it’s the most
-            efficient that it can be. If we see opportunities to make your home or business more efficient we will propose
-            them to you.</p>
-        </div>
-      </div>
       {/* <!-- End Power Consumption Column --> */}
       <hr/>
       {/* <!-- System Design column --> */}

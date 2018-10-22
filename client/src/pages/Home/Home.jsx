@@ -5,12 +5,12 @@ class Home extends Component {
     render () {
 return (
     <article>
-        <header class="masthead d-flex">
-            <div class="container text-center my-auto">
-                <h1 class="mb-1">Empowering Communities Forward</h1>
+        <header className="masthead d-flex">
+            <div className="container text-center my-auto">
+                <h1 className="mb-1">Empowering Communities Forward</h1>
                 
     </div>
-            <div class="overlay"></div>
+            <div className="overlay"></div>
         </header>
     </article>
 )

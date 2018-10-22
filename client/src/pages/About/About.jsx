@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import Demo from '../../components/Demo';
 
 class About extends Component {
     render () {
 return (
     <article>
                 {/* <!-- About --> */}
-  <section class="parallax-about" className="bg-light" id="portfolio">
+  <section className="parallax-about bg-light" id="portfolio">
             <div className="container">
                 <div className="content-section-heading">
                     <h2 className="text-secondary mb-0">About</h2>
