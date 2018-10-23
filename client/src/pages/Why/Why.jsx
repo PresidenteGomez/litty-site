@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 
 class Why extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
     render () {
 return (
     <article>
@@ -27,24 +30,6 @@ return (
 )
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 export default Why;

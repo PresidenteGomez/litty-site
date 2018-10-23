@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 
 class SystemType extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
     render () {
 return (
     <section className="parallax-systems bg-light" id="types">
@@ -342,24 +345,5 @@ return (
 )
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 export default SystemType;
