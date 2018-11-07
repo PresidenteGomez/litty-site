@@ -19,7 +19,7 @@ class Properties extends Component {
                     <div className="card-deck">
                         <div className="card">
                             <img className="card-img-top" src="https://images.unsplash.com/photo-1472224371017-08207f84aaae?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d5e5f5fb0390274713e4a135b74b2678&auto=format&fit=crop&w=2850&q=80"
-                                alt="Card image cap" width="450" height="180" />
+                                 width="450" height="180" />
 
                             <div className="property-name card-body">
                                 <h4 className="card-title">Residential</h4>
@@ -27,7 +27,7 @@ class Properties extends Component {
                         </div>
                         <div className="card">
                             <img className="card-img-top" src="https://images.unsplash.com/photo-1517464852481-002801a489e7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8738f9c548f744f75041bc4a6c135151&auto=format&fit=crop&w=3716&q=80"
-                                width="450" height="180" alt="Card image cap" />
+                                width="450" height="180" />
 
                             <div className="property-name card-body">
                                 <h4 className="card-title"> Commercial</h4>

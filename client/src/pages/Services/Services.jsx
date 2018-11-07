@@ -13,7 +13,7 @@ return (
   <section className="content-section bg-primary" id="services">
             <div className="container">
                 <div className="content-section-heading">
-                    <h2 className="text-secondary mb-0">Services</h2>
+                    <h2 className="text-secondary mb-0">Solutions</h2>
                     <p className="lead mb-5">Our services consist of installing and maintaining solar panels. We will go through an extremely thorough solar system
           design process and will present to you the best options available.
 

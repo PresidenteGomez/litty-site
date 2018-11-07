@@ -9,6 +9,7 @@ import Properties from './pages/Properties';
 import Services from './pages/Services';
 import SystemType from './pages/SystemType';
 import Why from './pages/Why';
+import Community from './pages/Community';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
@@ -25,6 +26,7 @@ const App = () => (
   <Route exact path="/services" component={Services} />
   <Route exact path="/system-type" component={SystemType} />
   <Route exact path="/why" component={Why} />
+  <Route exact path="/community" component={Community} />
   </Switch>
       <Footer />
   </div>
