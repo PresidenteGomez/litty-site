@@ -45,14 +45,14 @@ return (
             <div className="container">
             <div className="row text-center" >
                 <div class="col-lg-4">
-                        <img class="rounded-circle" src="https://images.unsplash.com/photo-1499294458874-649e70a7d7fb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e7bbd776a573ae2e415fc634d2d4c3d1&auto=format&fit=crop&w=934&q=80" alt="Generic placeholder image" width="270" height="270" />
+                        <img class="rounded-circle" src="https://media.licdn.com/dms/image/C5603AQFKSjU5VQ5wcw/profile-displayphoto-shrink_800_800/0?e=1548892800&v=beta&t=qZmxqMoyvuTgdy1QsG48SFKbqTCZo_zIkKUnRNHtHg0" alt="Generic placeholder image" width="270" height="270" />
                         <h2 className="about-space">Peter</h2>
                     <h6>Chief Operating Officer</h6>
-                        <p>Prior to the last decade building and transforming the smallest to the largest O&M and capital projects in renewables, transmission, and nuclear energy, Peter Reese began his career as a teacher and community developer in some of the most challenging educational environments in the world. Every day he is compelled by the knowledge that distributed renewable generation is THE solution for empowering a better future for all socially, environmentally, and economically.</p>
+                        <p>Prior to the last decade building and transforming the smallest to the largest O&M and capital projects in renewables, transmission, and nuclear energy, Peter Reese began his career as a teacher and community developer in Milwaukee. Every day he is compelled by the knowledge that distributed renewable generation is THE solution for empowering a better future for all socially, environmentally, and economically.</p>
                     {/* <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p> */}
                 </div>
                 <div class="col-lg-4">
-                        <img class="rounded-circle" src="https://images.unsplash.com/photo-1444069069008-83a57aac43ac?ixlib=rb-0.3.5&s=1786297c0c03c374b8420c69f0bf3776&auto=format&fit=crop&w=934&q=80" alt="Generic placeholder image" width="270" height="270" />
+                        <img class="rounded-circle" src="https://media.licdn.com/dms/image/C4E03AQFBRAAgvLThAg/profile-displayphoto-shrink_200_200/0?e=1548892800&v=beta&t=sH7NqlwC-87knE7nc8qmbA8Z1NRIUNtE2uY2AqosqlU" width="270" height="270" />
                         <h2 className="about-space">Nestor</h2>
                     <h6>Chief Executive Officer</h6>
                     <p>With over a decade of being active in his community, Nestor brings passion and technological experience to our team.</p>
