@@ -22,7 +22,7 @@ return (
         <div className="content-section-heading" id="services">
           <div>
             <h2>Solutions</h2>
-            <p className="lead mb-5">There's a solution for everyone. No matter who you are and your circumstances. </p>
+            <p className="lead mb-5">There's a solution for everyone. No matter the circumstances. </p>
           </div>
         </div>
 

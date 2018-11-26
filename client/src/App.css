@@ -854,3 +854,20 @@ better-header.cool-header {
 
 iframe{ position: absolute; left:0; right:0; bottom:0; top:0; border:0;}
 
+
+.about-space{
+    padding: 3%;
+}
+
+.page-wrap-contact {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: 1500px; 
+}
+.page-wrap-contact:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap-contact:after {
+  height: 100%; 
+}

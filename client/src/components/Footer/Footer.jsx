@@ -9,7 +9,8 @@ class Footer extends Component {
 
             
             <section>
-    <footer className="footer text-center" id="connect">
+                
+                <footer className="footer text-center" id="connect" >
             
         <div className="container">
                     <div className="row"> 

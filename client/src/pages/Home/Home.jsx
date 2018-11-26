@@ -96,7 +96,7 @@ return (
                             <p>Don't settle for unexperienced installers when you can count on Litty Solar's team of expert Solar Specialists.</p>
                             <div class="col-md-5 pt-3">
                                 <div class="wrapper">
-                                    <a href="/contact" >Meet Our Team<span class="arrow">
+                                    <a href="/about" >Meet Our Team<span class="arrow">
                                         <span>
                                         </span>
                                     </span>

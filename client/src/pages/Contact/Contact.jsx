@@ -6,7 +6,8 @@ class Contact extends Component {
     }
     render() {
         return (
-            <article className="footer-iframe">
+            <article class="page-wrap-contact">
+                
                 {/* <section className="content-section bg-primary" id="services">
                     <div className="container">
                         <div className="content-section-heading">
@@ -26,6 +27,7 @@ class Contact extends Component {
                     </div>
                     
                 </section>
+            
             </article>
         )
     }
