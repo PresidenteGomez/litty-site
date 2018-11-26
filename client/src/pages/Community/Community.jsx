@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
 
+
 class Community extends Component {
     componentDidMount() {
         window.scrollTo(0, 0)
     }
     render() {
         return (
+            
             <article>
+
+
                 <section className="content-section bg-primary" id="services">
                     <div className="container">
                         <div className="content-section-heading">
@@ -16,6 +20,7 @@ class Community extends Component {
                         </p>
                         </div>
                     </div>
+                    
                 </section>
             </article>
         )

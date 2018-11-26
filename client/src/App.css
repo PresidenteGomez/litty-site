@@ -265,7 +265,7 @@ h6 {
 
 .masthead {
     width: 100%;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0.2) 100%), url(https://images.unsplash.com/photo-1496105149666-9a2aee917d80?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=29729f97d6ec1d530b301b474953a8ec&auto=format&fit=crop&w=3891&q=80);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0.2) 100%), url(https://i2.wp.com/www.roofingcalc.com/wp-content/uploads/2018/05/certainteed-apollo-2-solar-shingles-roof.jpg?ssl=1);
     background-position: fixed;
     min-height: 700px;
     background-attachment: fixed;
@@ -276,12 +276,13 @@ h6 {
     font-size: 3rem;
     font-size: 1rem;
     color:rgb(255, 255, 255);
+    transform: skewY(-3deg);
     
 }
 @media only screen and (max-width: 600px) {
     .masthead {
         width: 100%;
-        background: linear-gradient(90deg, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0.2) 100%), url(https://images.unsplash.com/photo-1496105149666-9a2aee917d80?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=29729f97d6ec1d530b301b474953a8ec&auto=format&fit=crop&w=3891&q=80);
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0.2) 100%), url(https://i2.wp.com/www.roofingcalc.com/wp-content/uploads/2018/05/certainteed-apollo-2-solar-shingles-roof.jpg?ssl=1);
         background-position: fixed;
         min-height: 700px;
         background-attachment: relative;
@@ -292,6 +293,7 @@ h6 {
         font-size: 3rem;
         font-size: 1rem;
         color:rgb(255, 255, 255);
+        transform: skewY(-2deg);
         
         }
 }
@@ -579,7 +581,9 @@ a:hover {
     color: #151E26!important
 }
 
-/* scss taken from original website */
+
+
+/* Buttons with animations */
 .wrapper {
 
   position: relative;
@@ -679,4 +683,147 @@ a:hover {
 @keyframes animate-arrow-3 {
   0%{transform:translateX(-10px);opacity: 0;}
   70%,100%{transform:translateX(0px);opacity: 0.3;}
+}
+
+/* NavBar animations */
+
+div.row-fluid {
+		text-align: center;
+        margin-top: 4em;
+        font-size: 50px;
+}
+
+div.row-fluid a {
+	margin-left: 0.3em;
+	margin-bottom: 0.6em;
+}
+
+.link {
+		cursor: pointer;
+		display: inline-block;
+		position: relative;
+		margin-bottom: 0.5em;
+}
+
+.link.anim-destination {
+	display: inline-block;
+	overflow: hidden;
+	padding-right: 0.5em;
+}
+
+.link.anim-destination span {
+	position: relative;
+	display: inline-block;
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.link.anim-destination span::before {
+	position: absolute;
+	white-space: nowrap;	
+	top: 100%;
+	content: attr(data-hover);
+	font-weight: 700;
+}
+
+.link.anim-destination:hover span,
+.link.anim-destination:focus span {
+	-webkit-transform: translateY(-100%);
+	transform: translateY(-100%);
+}
+
+/* Arrow at Home Animation */
+
+.arrows {
+	width: 100px;
+	height: 82px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20px;
+}
+
+.arrows path {
+	stroke: #F6F5F7;
+	fill: transparent;
+	stroke-width: 5px;	
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
+/* Illustrating Solutions Better */
+
+.solutions-better {
+    width: 80%; 
+    height: 300px; 
+    border-radius: 21px 21px 0 0;
+}
+
+/* SOLUTIONS HEADER */
+.better-header {
+  position: relative;
+  height: 400px;
+  /* width: auto; */
+  overflow: hidden;
+}
+
+.header__bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 120%;
+  background-image: url(https://images.unsplash.com/photo-1530482050088-21bce965abbd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=128ec33f773402dd280bfa8e99a7e154&auto=format&fit=crop&w=2700&q=80);
+  transform: skewY(-5deg);
+  transform-origin: top left;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-attachment: fixed;
+}
+.cool-header {
+  margin: 0;
+  padding: 100px 0;
+  font: 44px "Arial";
+  text-align: center;
+}
+
+better-header.cool-header {
+  position: relative;
+  background-color: red; 
+}
+
+.solutions-background-color{
+    background-color: #EAEAEA;
 }
