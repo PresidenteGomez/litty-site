@@ -6,8 +6,8 @@ class Contact extends Component {
     }
     render() {
         return (
-            <article>
-                <section className="content-section bg-primary" id="services">
+            <article className="footer-iframe">
+                {/* <section className="content-section bg-primary" id="services">
                     <div className="container">
                         <div className="content-section-heading">
                             <h2 className="text-secondary mb-0">Contact Us!</h2>
@@ -16,6 +16,15 @@ class Contact extends Component {
                         </p>
                         </div>
                     </div>
+                   
+                </section> */}
+                <section>
+                    <div className="container">
+                        <div className="typeform">
+                            <iframe width="100%" height="100%" frameborder="50" src="https://nestor54.typeform.com/to/s7aes6"></iframe>
+                        </div>
+                    </div>
+                    
                 </section>
             </article>
         )

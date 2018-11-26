@@ -87,9 +87,9 @@ class Header extends Component {
                             <li className="nav-item">
                                 <Link className="nav-link" to="contact"><a className="link anim-destination"><span data-hover="Contact">Contact</span></a></Link>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <Link className="nav-link" to="community"><a className="link anim-destination"><span data-hover="Community">Community</span></a></Link>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>

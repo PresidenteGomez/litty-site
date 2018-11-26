@@ -1,7 +1,8 @@
 body,
 html {
     width: 100%;
-    height: 100%
+    height: 100%;
+    background-color:#f8f9fa;
 }
 
 * {
@@ -499,10 +500,23 @@ h6 {
     }
 }
 
+footer{
+    position: fixed;
+    
+}
+
 footer.footer {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: #151E26
+    background-color: #151E26;
+    position: absolute;
+ 
+  
+  transform: skewY(-5deg);
+  transform-origin: bottom right;
+  
+  
+ 
 }
 
 footer.footer .social-link {
@@ -570,7 +584,7 @@ a:hover {
 }
 
 .bg-primary {
-    background-color: #EAEAEA!important
+    background-color: #f8f9fa!important
 }
 
 .text-primary {
@@ -825,5 +839,18 @@ better-header.cool-header {
 }
 
 .solutions-background-color{
-    background-color: #EAEAEA;
+    background-color: #f8f9fa;
 }
+.about-background-color{
+    background-color: #f8f9fa;
+}
+
+.typeform{
+    margin: 50px; 
+    height: 50%; 
+    overflow: ; 
+} 
+    
+
+iframe{ position: absolute; left:0; right:0; bottom:0; top:0; border:0;}
+

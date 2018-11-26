@@ -7,8 +7,8 @@ class Footer extends Component {
         return (
 // < !--Footer -- >
 
-
-<section>
+            
+            <section>
     <footer className="footer text-center" id="connect">
             
         <div className="container">
