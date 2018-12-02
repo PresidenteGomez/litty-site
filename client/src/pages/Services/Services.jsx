@@ -31,7 +31,7 @@ return (
           <div className="solutions-better" class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white ">
             <div class="my-3 py-3">
               <h2 class="display-5">Residential</h2>
-              <p class="lead">Make your home stand out with panels or solar shingles on your property and see it increase in value.</p>
+              <p class="lead">Make your home stand out with panels or solar shingles and see it increase in value.</p>
               <a>
                 <img className="img-fluid mb-3 mb-md-0" src="https://i2.wp.com/www.roofingcalc.com/wp-content/uploads/2018/05/certainteed-apollo-2-solar-shingles-roof.jpg?ssl=1" alt="" width="500px" height="350px"/>
               </a>

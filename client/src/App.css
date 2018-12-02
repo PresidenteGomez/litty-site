@@ -29,10 +29,10 @@ font-family: 'Montserrat', sans-serif;
 
 .parallax {
     background: 
-    linear-gradient(
+    /* linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ),
+    ), */
     url(https://images.unsplash.com/photo-1510022079733-8b58aca7c4a9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6da2c9e985e56b6a43209d7b1d46c8ca&auto=format&fit=crop&w=1402&q=80);
   min-height: 700px;
   background-attachment: fixed;
@@ -50,10 +50,10 @@ padding-top: 6.5rem;
 @media only screen and (max-width: 600px) {
     .parallax {
         background: 
-        linear-gradient(
+        /* linear-gradient(
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
-        ),
+        ), */
         url(https://images.unsplash.com/photo-1510022079733-8b58aca7c4a9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6da2c9e985e56b6a43209d7b1d46c8ca&auto=format&fit=crop&w=1402&q=80);
     min-height: 700px;
     background-attachment: relative;
@@ -72,10 +72,10 @@ padding-top: 6.5rem;
 
 .parallax-systems{
       background: 
-    linear-gradient(
+    /* linear-gradient(
       rgba(0, 0, 0, -0.1),
       rgba(0, 0, 0, -0.1)
-    ),
+    ), */
     url(https://images.unsplash.com/photo-1508884339235-6d8c32e20da3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=44c65c53870e00c4f4a37cbdf833a30d&auto=format&fit=crop&w=2768&q=80);
   min-height: 700px;
   background-attachment: fixed;
@@ -94,10 +94,10 @@ padding-top: 6.5rem;
 @media only screen and (max-width: 600px) {
     .parallax-systems{
         background: 
-        linear-gradient(
+        /* linear-gradient(
         rgba(0, 0, 0, -0.1),
         rgba(0, 0, 0, -0.1)
-        ),
+        ), */
         url(https://images.unsplash.com/photo-1508884339235-6d8c32e20da3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=44c65c53870e00c4f4a37cbdf833a30d&auto=format&fit=crop&w=2768&q=80);
         min-height: 700px;
         background-attachment: relative;
@@ -117,10 +117,10 @@ padding-top: 6.5rem;
 
 .parallax-about{
       background: 
-    linear-gradient(
+    /* linear-gradient(
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
-    ),
+    ), */
     url(https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?ixlib=rb-0.3.5&s=d5b622e2ea747f0eaa17e73a2040031a&auto=format&fit=crop&w=2654&q=80);
   min-height: 700px;
   background-attachment: fixed;
@@ -137,10 +137,10 @@ padding-top: 6.5rem;
     @media only screen and (max-width: 600px) {
         .parallax-about{
         background: 
-        linear-gradient(
+        /* linear-gradient(
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
-        ),
+        ), */
         url(https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?ixlib=rb-0.3.5&s=d5b622e2ea747f0eaa17e73a2040031a&auto=format&fit=crop&w=2654&q=80);
     min-height: 700px;
     background-attachment: relative;
@@ -266,7 +266,7 @@ h6 {
 
 .masthead {
     width: 100%;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0.2) 100%), url(https://i2.wp.com/www.roofingcalc.com/wp-content/uploads/2018/05/certainteed-apollo-2-solar-shingles-roof.jpg?ssl=1);
+    background: url(https://i2.wp.com/www.roofingcalc.com/wp-content/uploads/2018/05/certainteed-apollo-2-solar-shingles-roof.jpg?ssl=1);
     background-position: fixed;
     min-height: 700px;
     background-attachment: fixed;
@@ -283,7 +283,7 @@ h6 {
 @media only screen and (max-width: 600px) {
     .masthead {
         width: 100%;
-        background: linear-gradient(90deg, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0.2) 100%), url(https://i2.wp.com/www.roofingcalc.com/wp-content/uploads/2018/05/certainteed-apollo-2-solar-shingles-roof.jpg?ssl=1);
+        background: url(https://i2.wp.com/www.roofingcalc.com/wp-content/uploads/2018/05/certainteed-apollo-2-solar-shingles-roof.jpg?ssl=1);
         background-position: fixed;
         min-height: 700px;
         background-attachment: relative;
