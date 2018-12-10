@@ -1,3 +1,11 @@
+## To deploy: 
+- npm run deploy
+- move the "build" folder within the client folder into the root (replace the one that currently exists)
+- npm run deploy again
+- in Github Settings for this site, scroll to GitHub Pages and re-add the custom domain name (it gets erased during deployment)
+- empty cache/hard reload if the changes don't appear right away
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

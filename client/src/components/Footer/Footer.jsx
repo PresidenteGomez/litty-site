@@ -19,22 +19,22 @@ class Footer extends Component {
                         <h2 className="navi">Connect With Us!</h2>
                             <ul className="list-inline">
                                 <li className="list-inline-item">
-                                    <a className="social-link rounded-circle" href="https://www.facebook.com/littysolar">
+                                    <a className="social-link rounded-circle" href="https://www.facebook.com/littysolar" target="_blank" rel="noopener noreferrer">
                                         <i className="icon-social-facebook"></i>
                                     </a>
                                 </li>
                                 <li className="list-inline-item">
-                                    <a className="social-link rounded-circle" href="https://www.instagram.com/littysolar">
+                                    <a className="social-link rounded-circle" href="https://www.instagram.com/littysolar" target="_blank" rel="noopener noreferrer">
                                         <i className="icon-social-instagram"></i>
                                     </a>
                                 </li>
                                 <li className="list-inline-item">
-                                    <a className="social-link rounded-circle" href="https://twitter.com/littysolar">
+                                    <a className="social-link rounded-circle" href="https://twitter.com/littysolar" target="_blank" rel="noopener noreferrer">
                                         <i className="icon-social-twitter"></i>
                                     </a>
                                 </li>
                                 <li className="list-inline-item">
-                                    <a className="social-link rounded-circle" href="https://medium.com/@littysolar">
+                                    <a className="social-link rounded-circle" href="https://medium.com/@littysolar" target="_blank" rel="noopener noreferrer">
                                         <i class="fa fa-medium" aria-hidden="true"></i>
                                     </a>
                                 </li>

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ServicesType from '../../components/ServicesType';
 
 
-class Services extends Component {
+class Solutions extends Component {
   componentDidMount() {
     window.scrollTo(0, 0)
 }
@@ -95,4 +95,4 @@ return (
     }
 }
 
-export default Services;
+export default Solutions;

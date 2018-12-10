@@ -6,7 +6,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Mission from './pages/Mission';
 import Properties from './pages/Properties';
-import Services from './pages/Services';
+import Solutions from './pages/Solutions';
 import SystemType from './pages/SystemType';
 import Why from './pages/Why';
 import Community from './pages/Community';
@@ -23,7 +23,7 @@ const App = () => (
   <Route exact path="/contact" component={Contact} />
   <Route exact path="/mission" component={Mission} />
   <Route exact path="/properties" component={Properties} />
-  <Route exact path="/services" component={Services} />
+  <Route exact path="/solutions" component={Solutions} />
   <Route exact path="/system-type" component={SystemType} />
   <Route exact path="/why" component={Why} />
   <Route exact path="/community" component={Community} />

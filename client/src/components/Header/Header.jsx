@@ -67,10 +67,10 @@ class Header extends Component {
                                 <Link className="nav-link page-scroll" to="/"><a className="link anim-destination"><span data-hover="Home">Home</span></a></Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="services"><a className="link anim-destination"><span data-hover="Solutions">Solutions</span></a></Link>
+                                <Link className="nav-link" to="/solutions"><a className="link anim-destination"><span data-hover="Solutions">Solutions</span></a></Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="about"><a className="link anim-destination"><span data-hover="About">About</span></a></Link>
+                                <Link className="nav-link" to="/about"><a className="link anim-destination"><span data-hover="About">About</span></a></Link>
                             </li>
                             {/* <li className="nav-item">
                                 <Link className="nav-link" to="mission">Mission</Link>
@@ -85,7 +85,7 @@ class Header extends Component {
                                 <Link className="nav-link" to="system-type">System Types</Link>
                             </li> */}
                             <li className="nav-item">
-                                <Link className="nav-link" to="contact"><a className="link anim-destination"><span data-hover="Contact">Contact</span></a></Link>
+                                <Link className="nav-link" to="/contact"><a className="link anim-destination"><span data-hover="Contact">Contact</span></a></Link>
                             </li>
                             {/* <li className="nav-item">
                                 <Link className="nav-link" to="community"><a className="link anim-destination"><span data-hover="Community">Community</span></a></Link>
